@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-    t := new([]byte)
-    interpreter.Run("test.txt", *t)
+    tape := new([]byte)
+    interpreter.Run("hello.bf", *tape)
 }
